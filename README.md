@@ -31,8 +31,6 @@ Thêm commit:
 console.log('Welcome to Git edited!')
 ```
 Chỉnh sửa commit: Sửa lại message commit đầu tiên (dùng --amend) với messages 'Commit 1 edit'
-Mở file src/app.js và sửa đổi nội dung
-console.log('Welcome to Git!')
 
 - Thực hiện push nhánh feature/demo lên github và tạo pull request vào repo fork
 
@@ -123,7 +121,7 @@ git log --oneline
 ```
 
 - Thực hiện tạo sự thay đổi trong code
-- Sau đó đưa code đang dang dở và stash, và xem sự thay đổi
+- Sau đó đưa code đang dang dở vào stash, và xem sự thay đổi
 ```
 git stash -u        # Cất tạm thay đổi
 git stash list      # Xem stash
